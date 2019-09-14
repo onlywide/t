@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script>/***** Khát Vọng Việt - Trái Tim Rơi Trên Blog *****/if(typeof $pdj=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(typeof $pdj=='undefined'){var $pdj=jQuery.noConflict()}if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['corazon']="http://lh6.googleusercontent.com/-7-WYEBOVd7c/TzMiej4AFcI/AAAAAAAACLc/w2Fn6N9jwIU/s32/heart.png";$pdj(document).ready(function(){var c=$pdj(window).width();var d=$pdj(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(8500,10000),function(){$pdj(this).fadeOut('slow',function(){f(a)})})},e(1,9000))};$pdj('<div></div>').attr('id','corazonDiv').css({position:'fixed',width:(c-20)+'px',height:'1px',left:'0px',top:'-5px',display:'block'}).appendTo('body');for(var i=1;i<=15;i++){var g=$pdj('<img/>').attr('src',image_urls['corazon']).css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('corazonDrop').appendTo('#corazonDiv');f(g);g=null};var h=0;var j=0;$pdj(window).resize(function(){c=$pdj(window).width();d=$pdj(window).height()})});</script>
+	<style type="text/css">
+		#modal-content {
+			position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #606060;
+    font: 13px Arial;
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    max-width: 720px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 10px #343434;
+    cursor: url(/images/clovel.cur), progress;
+		}
+	</style>
+</head>
+<body style="background-color: black;">
+	<div id="modal-content">
+		<div id="modal-body">
+			<center>
+				Thông báo<br><hr>
+				Chúc các cậu ăn thính vui vẻ :)<br/>
+		Chào và hẹn gặp lại trong các chương trình kế tiếp
+			</center>
+		</div>
+	</div>
+</body>
+</html>
